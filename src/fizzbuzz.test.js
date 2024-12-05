@@ -1,0 +1,2 @@
+import generarFizzBuzzDe from "./fizzbuzz";
+
