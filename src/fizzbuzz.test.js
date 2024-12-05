@@ -12,4 +12,8 @@ describe("FizzBuzz", () => {
     it("Dado el 5, deberia retornar Buzz", () => {
         expect(generarFizzBuzzDe(5)).toEqual("Buzz");
     });
+
+    it("Dado un multiplo de 3, deberia retornar Fizz", () => {
+        expect(generarFizzBuzzDe(6)).toEqual("Fizz");
+    });
   });
