@@ -1,5 +1,5 @@
 function generarFizzBuzzDe(numero) {
-    return;
+    return numero.toString();
   }
   
   export default generarFizzBuzzDe;
